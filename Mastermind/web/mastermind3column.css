@@ -1,0 +1,316 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 4, 2014, 5:58:02 PM
+    Author     : Blake
+*/
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+body {
+	background-color: #000;
+}
+#wrapper {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 960px;
+	height: auto;
+	margin: auto;
+	background-color: #413c3c;
+	box-shadow: 0px 0px 20px #fff;
+}
+header {
+	background-color: #F0F0F0;
+	text-align: center;
+	padding: 10px;
+}
+header h1 {
+	font-size: 3.5em;
+	font-family: 'Poiret One', cursive, Tahoma, Geneva, sans-serif;
+	letter-spacing: 10px;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px #333;
+	padding-bottom: 10px;
+}
+header li {
+	display: inline-block;
+}
+nav {
+	background-color: #231E1E;
+	color: #CCC;
+	padding: 5px 5px 5px 220px;
+	border: 1px solid #000;
+	font-size: 1em;
+	font-family: 'Poiret One', cursive, Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+}
+nav li {
+	display: inline-block;
+	/*border-right: 2px solid #fff;*/
+	padding: 0 10px;
+}
+nav a {
+	text-decoration: none;
+	padding: 3px 6px;
+	color: #CCC;
+}
+nav a:visited {
+	color: #CCC;
+}
+nav a:hover {
+	background-color: #CCC;
+	color: #231E1E;
+}
+footer {
+	color: #000;
+	background-color: #999;
+	text-align: center;
+	font-size: .5em;
+	height: 25px;
+	padding-top: 5px;
+}
+.content {
+	background-color: #fff;
+	color: #000;
+	margin-left: 180px;
+	margin-right: 150px;
+	padding: 20px;
+	min-height: 650px;
+}
+.content h2{
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.content p {
+	font-size: .7em;
+	padding: 0 70px 20px 70px;
+}
+.content table, th, td {
+    border: 1px solid black;
+    padding-left: 20px;
+    background: #cc9900;
+}
+.content td {
+    width: 75px;
+    height: 50px;
+}
+.content #hints {
+    float: right;
+    width: 75px;
+    height: 50px;
+}
+.content #guesses {
+    float: left;
+}
+.leftcolumn {
+	float: left;
+	padding-top: 10px;
+	margin: 0;
+	background-color: #413c3c;
+	color: #d2d1d1;
+	width: 180px;
+}
+.leftcolumn h2 {
+	padding: 10px 10px 5px 10px;
+	color: #fff;
+	font-family: 'Poiret One', cursive, Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.leftcolumn h3 {
+	padding: 0px 10px;
+}
+.leftcolumn p {
+	padding: 0 10px 10px 10px;
+	font-size: 1em;
+}
+.leftcolumn img {
+	padding: 0px 10px 5px 10px;
+}
+.rightcolumn {
+	float: right;
+	padding-top: 10px;
+	margin: 0;
+	background-color: #413c3c;
+	color: #d2d1d1;
+	width: 150px;
+}
+.rightcolumn h2 {
+	padding: 10px 10px;
+	color: #fff;
+	font-family: 'Poiret One', cursive, Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.rightcolumn h3 {
+	padding: 0px 10px;
+	font-size: .8em;
+}
+.rightcolumn p {
+	padding: 0 10px 10px 10px;
+	font-size: .65em;
+}
+.rightcolumn ul {
+	list-style-type: none;
+}
+.rightcolumn li {
+	display: block;
+	padding-bottom: 10px;
+}
+.rightcolumn a {
+	color: #0FF;
+	text-decoration: none;
+}
+.rightcolumn a:hover {
+	color: #fff;
+}
+.rightcolumn form {
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.rightcolumn input {
+    margin-bottom: 20px;
+}
+.facebook {
+	background-image: url(images/facebook.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.twitter {
+	background-image: url(images/twitter.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.clearboth {
+	clear: both;
+}
+iframe {
+	padding: 20px 85px;
+}
+.removeborder {
+	border: none;
+}
+/*bottom border for leftcolumn sections*/
+.bottomborder {
+	border-bottom: 1px solid #fff;
+}
+.recentposts li {
+	list-style-type: none;
+}
+.recentposts a {
+	text-decoration: none;
+	font-size: .75em;
+	color: #d2d1d1;
+	margin-left: -10px;
+}
+.recentposts a:hover {
+	background-color: #CCC;
+	color: #231E1E;
+}
+#blankCodePegCircle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    color: #cc9900;
+}
+#redCodePegCircle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: #ff0000;
+}
+#blueCodePegCircle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: #0000FF;
+}
+#greenCodePegCircle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: #009900;
+}
+#yellowCodePegCircle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: #CCFF00;
+}
+#purpleCodePegCircle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: #9933FF;
+}
+#orangeCodePegCircle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: #ff9900;
+}
+#blackCodePegCircle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: #000000;
+}
+#whiteKeyPegCircle {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    display: inline;
+    border: 1px solid black;
+    background: #ffffff;
+}
+#blackKeyPegCircle {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    display: inline;
+    border: 1px solid black;
+    background: #000000;
+}
+#blankKeyPegCircle {
+    width: 400px;
+    height: 150px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    display: inline;
+    border: 1px solid black;
+    background: #cc9900;
+}
+#invisible {
+    visibility: hidden;
+}
+
